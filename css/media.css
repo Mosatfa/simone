@@ -1,0 +1,143 @@
+/* # Mobile
+only screen and (min-width: 480px){
+
+}
+
+# Tablet
+only screen and (min-width: 768px) 
+
+# Desktop
+only screen and (min-width: 992px)
+
+# Huge
+only screen and (min-width: 1280px)  */
+
+/* @media screen and (min-device-width: 100px) and (max-device-width: 450px){
+    .title-section h2{
+        color: #dee3e4;
+        opacity: 0.4;
+        font-size:  1rem;
+        line-height: 54px;
+    }
+    
+    .title-section p{
+        font-size: 1rem;
+        line-height: 54px;
+        font-weight: 600;
+        line-height: 1.5rem;
+        color: #212529;
+        position: absolute;
+    }
+
+    .title-section p::after{
+        content: "";
+        height: 3px;
+        width: 80px;
+        background-color: var(--mine-color);
+        position: absolute;
+        top: 170%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+} */
+
+@media only screen and (max-device-width: 480px){
+
+    .med-text{
+        font-size: 1.75rem;
+        line-height: 1.8rem;
+        margin-bottom: 8px;
+    }
+    
+    .small-text{
+        font-size: 1rem;
+        line-height: 5px;
+    }
+    
+    .large-text{
+        font-size: 2rem;
+        line-height: 50px;
+        margin-bottom: 16px;
+    }
+
+
+    .title-section h2{
+        font-size:  4rem;
+        line-height: 54px;
+    }
+    
+    .title-section p{
+        font-size: 1.5rem;
+        line-height: 54px;
+        line-height: 1.5rem;
+        color: #212529;
+        position: absolute;
+    }
+    .title-section p::after{
+        content: "";
+        height: 3px;
+        width: 60px;
+        background-color: var(--mine-color);
+        position: absolute;
+        top: 120%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #about-section .box-count{
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    #about-section .border-right{
+        border-right: none !important;
+    }
+    #about-section .border-none{
+        border-bottom: none !important;
+    }
+
+    #about-section .box-count h4{
+        font-size: 2rem;
+        line-height: 62px;
+        font-weight: 500;
+        color: #6c757d;
+        margin-bottom: 0;
+    }
+    
+    #about-section .box-count p{
+        font-size: 1rem;
+        line-height: 29px;
+        font-weight: 400;
+        color: #4c4d4d;
+    }
+}
+
+@media screen and (min-device-width: 480px) and (max-device-width: 768px){
+
+    .title-section h2{
+        color: #dee3e4;
+        opacity: 0.4;
+        font-size:  4rem;
+        line-height: 54px;
+    }
+    
+    .title-section p{
+        font-size: 1.5rem;
+        line-height: 54px;
+        font-weight: 600;
+        line-height: 1.5rem;
+        color: #212529;
+        position: absolute;
+    }
+
+    .title-section p::after{
+        content: "";
+        height: 3px;
+        width: 80px;
+        background-color: var(--mine-color);
+        position: absolute;
+        top: 170%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+} 
