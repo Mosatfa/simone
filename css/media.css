@@ -1,45 +1,13 @@
-/* # Mobile
-only screen and (min-width: 480px){
-
+@media (max-width:991px) {
+    .navbar .navbar-nav {
+        padding: 0 !important;
+    }
+    .nav-item {
+        text-align: center;
+        padding-top: 20px;
+    }
 }
 
-# Tablet
-only screen and (min-width: 768px) 
-
-# Desktop
-only screen and (min-width: 992px)
-
-# Huge
-only screen and (min-width: 1280px)  */
-
-/* @media screen and (min-device-width: 100px) and (max-device-width: 450px){
-    .title-section h2{
-        color: #dee3e4;
-        opacity: 0.4;
-        font-size:  1rem;
-        line-height: 54px;
-    }
-    
-    .title-section p{
-        font-size: 1rem;
-        line-height: 54px;
-        font-weight: 600;
-        line-height: 1.5rem;
-        color: #212529;
-        position: absolute;
-    }
-
-    .title-section p::after{
-        content: "";
-        height: 3px;
-        width: 80px;
-        background-color: var(--mine-color);
-        position: absolute;
-        top: 170%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-} */
 
 @media only screen and (max-device-width: 480px){
 
